@@ -24,10 +24,6 @@ header {
     border-bottom: 3px solid var(--brown);
 }
 
-header h1 {
-    margin: 0;
-}
-
 nav a {
     margin-left: 20px;
     text-decoration: none;
@@ -35,19 +31,14 @@ nav a {
     font-weight: bold;
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
-
 /* Hero */
 .hero {
     padding: 80px 20px;
     text-align: center;
     background: var(--beige);
-    margin-bottom: 40px;
 }
 
-/* Karten auf Startseite */
+/* Grid */
 .grid {
     display: grid;
     gap: 20px;
@@ -60,15 +51,15 @@ nav a:hover {
     padding: 20px;
     border: 2px solid var(--brown);
     border-radius: 8px;
-    text-decoration: none;
     color: var(--text-dark);
+    text-decoration: none;
 }
 
 .card:hover {
     background: var(--beige);
 }
 
-/* Inhalte */
+/* Content */
 .content {
     max-width: 800px;
     margin: 40px auto;
@@ -81,7 +72,7 @@ nav a:hover {
 footer {
     text-align: center;
     padding: 20px;
+    margin-top: 40px;
     background: var(--beige);
     border-top: 3px solid var(--brown);
-    margin-top: 40px;
 }
